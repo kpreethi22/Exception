@@ -1,0 +1,13 @@
+http://localhost:8081/api/posts     postmethod           json object
+{
+  "title": "Ocean",
+  "description": "clear blue",
+  "content": "Vast"
+}
+http://localhost:8081/api/posts/45       getmethod
+if post not present it is handled through pleasant msg
+{
+    "timestamp": "2024-03-12T10:50:28.684+00:00",
+    "message": "resource not found:45",
+    "details": "uri=/api/posts/45"
+}
